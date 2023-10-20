@@ -183,7 +183,7 @@ b2efe4671b21   pycontribs/centos:7   "sleep 36000000"   55 minutes ago   Up 55 m
       fedora:
         ansible_connection: docker 
 ```
-Добавляем файл с переменными для группы ```fedora``` ```/group_vars/fed/examp.yml```
+Добавляем файл с переменными для группы ```fed``` ```/group_vars/fed/examp.yml```
 ```
 ---
   some_fact: "Fedora default fact"
